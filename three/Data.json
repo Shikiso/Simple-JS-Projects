@@ -1,0 +1,50 @@
+{
+    "agents":[
+      {"Name":"Sage", "Type":"Sentinal", "Abilities":
+      {"Basic1":3, "Basic2":4, "Signiture":5, "Ultimate":1, "Passive":null}},
+
+      {"Name":"Brimstone", "Type":"Controller", "Abilities":
+      {"Basic1":0, "Basic2":1, "Signiture":2, "Ultimate":0, "Passive":null}},
+
+      {"Name":"Sova", "Type":"Initiator", "Abilities":
+      {"Basic1":6, "Basic2":7, "Signiture":8, "Ultimate":2, "Passive":null}},
+
+      {"Name":"Jett", "Type":"Duelist", "Abilities":
+      {"Basic1":9, "Basic2":10, "Signiture":11, "Ultimate":3, "Passive":0}},
+
+      {"Name":"Phoenix", "Type":"Duelist", "Abilities":
+      {"Basic1":12, "Basic2":13, "Signiture":14, "Ultimate":4, "Passive":1}}
+    ],
+
+    "abilities":[
+      {"Name":"Incendiary", "Amount":1, "Price":250},
+      {"Name":"Stim Beacon", "Amount":1, "Price":200},
+      {"Name":"Sky Smoke", "Amount":3, "Price":100},
+      {"Name":"Barrier Orb", "Amount":1, "Price":400},
+      {"Name":"Slow Orb", "Amount":2, "Price":200},
+      {"Name":"Healing Orb", "Amount":1, "Price":0, "Restock_seconds":45},
+      {"Name":"Owl Drone", "Amount":1, "Price":400},
+      {"Name":"Shock Bolt", "Amount":2, "Price":150},
+      {"Name":"Recon Bolt", "Amount":1, "Price":0, "Restock_seconds":40},
+      {"Name":"Cloudburst", "Amount":2, "Price":200},
+      {"Name":"Updraft", "Amount":2, "Price":150},
+      {"Name":"Tailwind", "Amount":1, "Price":0, "Restock_kills":2},
+      {"Name":"Updraft", "Amount":2, "Price":150},
+      {"Name":"Blaze", "Amount":1, "Price":200},
+      {"Name":"Curveball", "Amount":2, "Price":250},
+      {"Name":"Hot Hands", "Amount":1, "Price":0, "Restock_kills":2}
+    ],
+
+    "passvie abilities":[
+      {"Name":"Drift"},
+      {"Name":"Heating Up"}
+    ],
+
+    "ultimates":[
+      {"Name":"Orbital Strike", "Ult points":7},
+      {"Name":"Resurrection", "Ult points":8},
+      {"Name":"Hunter's Fury", "Ult points":8},
+      {"Name":"Blade Storm", "Ult points":7},
+      {"Name":"Run it Back", "Ult points":6}
+    ]
+}
